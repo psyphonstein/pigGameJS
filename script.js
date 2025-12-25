@@ -66,7 +66,7 @@ btnRoll.addEventListener("click", () => {
 
     // Display dice Roll
     diceEl.src = `dice-${dice}.png`;
-    console.log(dice, activePlayer);
+    // console.log(dice, activePlayer);
 
     // check the dice
     if (dice !== 1) {
